@@ -1,0 +1,16 @@
+site_name: CLADE Documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+  logo: assets/clade-logo.png
+  favicon: assets/clade-logo.png
+nav:
+  - Home: README.md
+
+plugins:
+  - search
+markdown_extensions:
+  - footnotes
