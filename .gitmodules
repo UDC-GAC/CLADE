@@ -1,0 +1,3 @@
+[submodule "benchmarks/clade-tpcds"]
+	path = benchmarks/clade-tpcds
+	url = git@github.com:UDC-GAC/clade-tpcds.git
