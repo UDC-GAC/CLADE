@@ -1,0 +1,7 @@
+.vscode/
+__pycache__
+.venv/
+.env
+.reuse/
+DSGen-software-code-3.2.0rc1/
+data/
