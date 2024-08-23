@@ -9,8 +9,14 @@ theme:
   favicon: assets/clade-logo.png
 nav:
   - Home: README.md
+  - Benchmarking:
+    - Home: benchmarking/1_index.md
+    - TPC-DS: benchmarking/2_tpc-ds.md
+    - Set up of TPC-DS: benchmarking/3_set-up.md
 
 plugins:
   - search
+  - bibtex:
+      bib_file: "docs/refs.bib"
 markdown_extensions:
   - footnotes
