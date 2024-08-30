@@ -13,6 +13,7 @@ nav:
     - Home: benchmarking/1_index.md
     - TPC-DS: benchmarking/2_tpc-ds.md
     - Set up of TPC-DS: benchmarking/3_set-up.md
+    - LST Bench: benchmarking/4_lst-bench.md
 
 plugins:
   - search
