@@ -1,0 +1,11 @@
+# Development of a Data Lakehouse benchmark suite
+
+Current benchmarks of DaaS platforms will be analyzed to design and develop performance and functional benchmarks of Data Lakehouses (TPC-DS-like) and solve the lack of a reference benchmark suite. The availability of such a suite is key to evaluate CLADE and its alternative Data Lakehouse architectures.
+
+- Analysis of benchmarks of DaaS platforms (performance and functionality)
+- Design and development of a Data Lakehouse performance benchmark (TPC-DS like)
+- Design and development of a Data Lakehouse functional benchmark
+
+## Methodology
+
+Special focus will be put on TPC-DS and TPCx-BB, the main references in benchmark suites for Big Data management platforms, following TPC standardization guidelines [@cao2017from] in order to design and develop Lakehouse benchmarks that take into account its peculiarities. On the one hand, performance metrics (O3.2) such as runtime, scalability, SQL performance on structured, semi-structured and unstructured data, and computing resource efficiency. On the other hand, functional features (O3.3) to assess: (i) data management operations supported (e.g., security, anonymization, governance, automatic lineage, catalog, and unique vision of business metrics); (ii) ACID support on structured, semi-structured and unstructured data; (iii) the out-of-the-box ML support (how to train and do inference); and (iv) the availability of data connectors for providers/consumers. When it comes to performance metrics (runtime, throughput and cost) they will be broken down into the main components of the architecture, following the guidelines of our previous work on the performance evaluation of data-intensive cloud applications [@exposito2016performance], to better understand the overall performance behavior of Data Lakehouse architectures. Regarding the functional assessment, it can vary on different deployments depending on the underlying cloud-based services, so it is key to have a comprehensive list of functionalities under consideration to depict the Data Lakehouse platform in a trustworthy way.
