@@ -2,6 +2,7 @@
 	path = benchmarks/clade-tpcds
 	url = git@github.com:UDC-GAC/clade-tpcds.git
 	branch = main
+	update = checkout
 [submodule "benchmarks/lst-bench"]
 	path = benchmarks/lst-bench
 	url = git@github.com:microsoft/lst-bench.git
